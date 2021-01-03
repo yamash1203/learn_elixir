@@ -1,0 +1,17 @@
+{
+	"name": "Elixir",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "latest",
+			"USERNAME": "vscode"
+		}
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"jakebecker.elixir-ls"
+	],
+	"remoteUser": "vscode"
+}
